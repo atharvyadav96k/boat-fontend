@@ -135,6 +135,9 @@ footer{
 .footer-title{
     margin-bottom: 20px;
 }
+.map{
+    max-width: 1200px;
+}
 @media screen and (max-width: 820px) {
     nav{
         display: none;
@@ -176,5 +179,11 @@ footer{
     }
     .footer-child{
         margin-top: 10px;
+    }
+    .map{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
     }
 }
